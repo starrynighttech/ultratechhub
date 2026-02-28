@@ -7,7 +7,8 @@ import Checkout from './components/Checkout'
 export default function App(){
   return(
     <CartProvider>
-      <ParticlesBg/>
+      <ParticlesBg/> 
+      <div className="smoke"></div>
       <div className="hero">
         <img src="/logo.png" width="120"/>
         <h1>Ultra Tech Hub</h1>
