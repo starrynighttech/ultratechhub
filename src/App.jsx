@@ -7,12 +7,18 @@ import Checkout from './components/Checkout';
 
 export default function App() {
   return (
-    <CartProvider> 
-      <ParticlesBg/>
-      <div className="Smoke"></div>
-      <div className="hero"> 
-        <img src="/logo.png" width="120"/>
-      
-  
+    <CartProvider>
+      <ParticlesBg />
+      <UltraSmoke />
+
+      <div className="hero">
+        <img src="/logo.png" width="120" alt="Logo" />
+
+        <h1>Ultratech Hub</h1>
+
+        <Shop />
+        <Checkout />
+      </div>
+    </CartProvider>
   );
-</ 
+}
