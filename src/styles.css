@@ -44,4 +44,28 @@ button{
   opacity:0.25;
   mix-blend-mode:screen;
   z-index:1;
+}.global-smoke {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: url('/smoke.png') center/cover no-repeat;
+  opacity: 0.3;
+  mix-blend-mode: screen;
+  z-index: 0;
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+}
+@keyframes drift {
+  0% { transform: translateY(0px); }
+  100% { transform: translateY(-60px); }
+}
+
+.global-smoke {
+  animation: drift 25s linear infinite alternate;
 }
