@@ -1,7 +1,7 @@
 import { CartProvider } from './context/CartContext';
 import ParticlesBg from './components/ParticlesBg';
 import UltraSmoke from './components/UltraSmoke';
-import './style.css';
+import './styles.css';
 import Shop from './components/Shop';
 import Checkout from './components/Checkout';
 
