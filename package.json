@@ -1,21 +1,24 @@
 {
   "name": "ultratechhub",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starrynighttech/ultratechhub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/starrynighttech/ultratechhub/issues"
+  },
+  "homepage": "https://github.com/starrynighttech/ultratechhub#readme",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@tsparticles/react": "^3.0.0",
-    "tsparticles": "^3.0.0",
-    "netlify-identity-widget": "^1.9.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^5.0.0"
+    "vite": "^7.3.1"
   }
 }
