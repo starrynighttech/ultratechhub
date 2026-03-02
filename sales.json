@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Iphone 13 Pro Max",
+    "image": "images/placeholder-phone.png",
+    "onSale": true
+  },
+  {
+    "name": "Iphone 12 Pro",
+    "image": "images/placeholder-phone.png",
+    "onSale": false
+  },
+  {
+    "name": "Iphone 11",
+    "image": "images/placeholder-phone.png",
+    "onSale": false
+  }
+]
