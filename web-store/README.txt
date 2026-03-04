@@ -1,0 +1,1 @@
+Next.js website for Starry Mobile Space. Run: npm install && npm run dev
