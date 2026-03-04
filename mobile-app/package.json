@@ -1,0 +1,8 @@
+
+{
+  "name": "starry-mobile-app",
+  "private": true,
+  "scripts": {
+    "start": "expo start"
+  }
+}
